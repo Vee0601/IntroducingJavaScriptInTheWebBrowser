@@ -10,3 +10,14 @@ for(let i=0;i<fruits.length;i++){
    li.innerText = fruit;
    fruitList.appendChild(li);
 }
+const inp = document.querySelector(".InputValue");
+const add = document.querySelector(".addButton");
+
+add.addEventListener('click', function(){
+   const fruit = inp.value
+   const li = document.createElement('li');
+   li.innerText = fruit;
+   fruitList.appendChild(li);
+   
+
+}) 
